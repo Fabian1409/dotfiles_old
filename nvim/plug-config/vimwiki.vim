@@ -1,0 +1,1 @@
+g:vimwiki_use_calender

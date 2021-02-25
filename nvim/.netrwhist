@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/fabian/University/SLP/assignments/A2'
+let g:netrw_dirhist_3='/home/fabian/.config'
+let g:netrw_dirhist_2='/home/fabian/.config/conky'
+let g:netrw_dirhist_1='/home/fabian/.repos/rofi-wifi-menu-plus-plus'

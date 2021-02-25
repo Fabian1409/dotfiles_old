@@ -1,0 +1,115 @@
+
+Skip to content
+
+    Why GitHub?
+                          
+
+
+                    
+Team
+Enterprise
+Explore
+                      
+
+                    
+Marketplace
+Pricing
+                       
+
+
+                        
+
+Sign in
+Sign up
+ZigaSajovic /
+rofi-wifi-menu-plus-plus
+
+1
+0
+
+    0
+
+Code
+Issues 1
+Pull requests
+Actions
+Projects
+Security
+
+    Insights
+
+Join GitHub today
+
+GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.
+rofi-wifi-menu-plus-plus/config.rasi
+@ZigaSajovic
+ZigaSajovic config.rasi
+Latest commit 2a1998c on Sep 27, 2018
+History
+1 contributor
+49 lines (40 sloc) 919 Bytes
+* {
+    background-color:      #2f343f;
+    border-color:          White;
+    text-color:           #f3f4f5;
+}
+
+configuration {
+}
+
+#window {
+    anchor:     south;
+    location:   south;
+    width:      100%;
+    padding:    4px;
+    children:   [ horibox ];
+}
+
+ textbox-prompt-colon {                                                
+     text-color: inherit;                                              
+     expand: false;                                                    
+     margin: 0 0.3em 0em 0em;                                          
+     str: ":";
+ }
+
+
+#horibox {
+    orientation: horizontal;
+    children:   [ prompt, textbox-prompt-colon,entry, listview ];
+}
+
+#listview {
+    layout:     horizontal;
+    spacing:    5px;
+    lines:      100;
+}
+
+#entry {
+    expand:     false;
+    width:      10em;
+}
+
+#element {
+    padding: 0px 2px;
+    color: #676E8D;
+}
+#element selected {
+    color: #f3f4f5;
+
+}
+
+    © 2020 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+
